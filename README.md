@@ -7,15 +7,16 @@ This is my first jQuery plugin. Although I develop it due to a need on my projec
 
 Usage
 -----
-$(document).ready(function() {
-    // initialize the carousel like this
-    $(".storyviewcontentsol").simpleCarousel();
 
-    // optionally you can skip to next image
-    $(".storyviewcontentsol").simpleCarousel("next");
+    $(document).ready(function() {
+        // initialize the carousel like this
+        $(".storyviewcontentsol").simpleCarousel();
 
-    // see methods section for more information
-})
+        // optionally you can skip to next image
+        $(".storyviewcontentsol").simpleCarousel("next");
+
+        // see methods section for more information
+    })
 
 Methods
 ------
